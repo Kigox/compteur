@@ -1,0 +1,15 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nom:</strong>
+  <%= @indefinition.nom %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @indefinition.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_indefinition_path(@indefinition) %> |
+<%= link_to 'Back', indefinitions_path %>
